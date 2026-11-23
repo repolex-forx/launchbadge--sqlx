@@ -2745,6 +2745,357 @@
       ],
       "ast": [
         "aggregate/ast/e7236881a1d618835d074481e45306a8ddc5a916/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/e7236881a1d618835d074481e45306a8ddc5a916.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "sqlx-core",
+          "ecosystem": "CARGO",
+          "version": "0.9.1",
+          "githubOrg": "launchbadge",
+          "githubRepo": "sqlx",
+          "githubCommit": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+          "githubTag": "v0.9.1",
+          "githubUrl": "https://github.com/launchbadge/sqlx",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sqlx-macros",
+          "ecosystem": "CARGO",
+          "version": "0.9.1",
+          "githubOrg": "launchbadge",
+          "githubRepo": "sqlx",
+          "githubCommit": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+          "githubTag": "v0.9.1",
+          "githubUrl": "https://github.com/launchbadge/sqlx",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sqlx-mysql",
+          "ecosystem": "CARGO",
+          "version": "0.9.1",
+          "githubOrg": "launchbadge",
+          "githubRepo": "sqlx",
+          "githubCommit": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+          "githubTag": "v0.9.1",
+          "githubUrl": "https://github.com/launchbadge/sqlx",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sqlx-postgres",
+          "ecosystem": "CARGO",
+          "version": "0.9.1",
+          "githubOrg": "launchbadge",
+          "githubRepo": "sqlx",
+          "githubCommit": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+          "githubTag": "v0.9.1",
+          "githubUrl": "https://github.com/launchbadge/sqlx",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sqlx-sqlite",
+          "ecosystem": "CARGO",
+          "version": "0.9.1",
+          "githubOrg": "launchbadge",
+          "githubRepo": "sqlx",
+          "githubCommit": "30f4eae0793ecaafbf6808623c84ff57e8001222",
+          "githubTag": "v0.9.1",
+          "githubUrl": "https://github.com/launchbadge/sqlx",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.52",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "f871e2fefcd10dab7b88af2fc27e2f7e0cfa1990",
+          "githubTag": "1.0.52",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures",
+          "ecosystem": "CARGO",
+          "version": "0.3.19",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "29a736f9edc2ba8abcf45ef037919c9df47dc754",
+          "githubTag": "0.3.19",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "env_logger",
+          "ecosystem": "CARGO",
+          "version": "0.11",
+          "githubOrg": "rust-cli",
+          "githubRepo": "env_logger",
+          "githubUrl": "https://github.com/rust-cli/env_logger",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "async-std",
+          "ecosystem": "CARGO",
+          "version": "1.13.2",
+          "githubOrg": "async-rs",
+          "githubRepo": "async-std",
+          "githubCommit": "844b552531521f517a2b02c4ed685ae176608247",
+          "githubTag": "v1.13.2",
+          "githubUrl": "https://github.com/async-rs/async-std",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.15.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "f64673580dfc649954eb744eb2734f2f118baa47",
+          "githubTag": "tokio-1.15.0",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "dotenvy",
+          "ecosystem": "CARGO",
+          "version": "0.15.0",
+          "githubOrg": "allan2",
+          "githubRepo": "dotenvy",
+          "githubCommit": "3840d4e3d8651c0f63e2bf6f1b969dbdd24316e4",
+          "githubTag": "v0.15.0",
+          "githubUrl": "https://github.com/allan2/dotenvy",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.53",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "feec62dde6114f9fbf9be6cede92596aa6c43c9b",
+          "githubTag": "1.0.53",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "paste",
+          "ecosystem": "CARGO",
+          "version": "1.0.6",
+          "githubOrg": "dtolnay",
+          "githubRepo": "paste",
+          "githubCommit": "4ffed377239acf07f5fbe2cfa152b0824790852b",
+          "githubTag": "1.0.6",
+          "githubUrl": "https://github.com/dtolnay/paste",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.132",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "77ae1c3bf7eb7c13cb464bfe37a1439190e8d63f",
+          "githubTag": "v1.0.132",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.73",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "296f718e18681c52909da99f24198133e58528b2",
+          "githubTag": "v1.0.73",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "url",
+          "ecosystem": "CARGO",
+          "version": "2.2.2",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubCommit": "6c22912c313064a8c5a6fa043882c9ad55dba162",
+          "githubTag": "v2.2.2",
+          "githubUrl": "https://github.com/servo/rust-url",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.4",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "8792268dfe57e49bb4518190bf4fe66176759a44",
+          "githubTag": "0.8.4",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand_xoshiro",
+          "ecosystem": "CARGO",
+          "version": "0.6.0",
+          "githubOrg": "rust-random",
+          "githubRepo": "rngs",
+          "githubUrl": "https://github.com/rust-random/rngs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "hex",
+          "ecosystem": "CARGO",
+          "version": "0.4.3",
+          "githubOrg": "KokaKiwi",
+          "githubRepo": "rust-hex",
+          "githubCommit": "b2b4370b5bf021b98ee7adc92233e8de3f2de792",
+          "githubTag": "v0.4.3",
+          "githubUrl": "https://github.com/KokaKiwi/rust-hex",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3.10.1",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubCommit": "094c1151105ae4641f367d3ab50da7bbfad62eb4",
+          "githubTag": "v3.10.1",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "criterion",
+          "ecosystem": "CARGO",
+          "version": "0.5.1",
+          "githubOrg": "criterion-rs",
+          "githubRepo": "criterion.rs",
+          "githubCommit": "dc2b06cd31f7aa34cff6a83a00598e0523186dad",
+          "githubTag": "0.5.1",
+          "githubUrl": "https://github.com/criterion-rs/criterion.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libsqlite3-sys",
+          "ecosystem": "CARGO",
+          "version": "0.30.1",
+          "githubOrg": "rusqlite",
+          "githubRepo": "rusqlite",
+          "githubUrl": "https://github.com/rusqlite/rusqlite",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "posixpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "ntpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "argparse",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "glob",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "platform",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "urllib.request",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "typing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "_collections_abc",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "genericpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "subprocess",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "os",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "sys",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "time",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "shutil",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "urllib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        }
       ]
     }
   ],
